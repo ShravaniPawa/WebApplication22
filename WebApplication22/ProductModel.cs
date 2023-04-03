@@ -12,7 +12,7 @@ namespace WebApplication22
         {
         }
 
-        public virtual DbSet<tblProduct1> tblProduct1 { get; set; }
+       public virtual DbSet<tblProduct1> tblProduct1 { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {

@@ -37,7 +37,6 @@ namespace WebApplication22.Controllers
             //Create a instance of our DataContext  
             ProductModel _dbContext = new ProductModel();
             IPagedList<tblProduct1> involst = null;
-
             //Alloting nos. of records as per pagesize and page index.  
             involst = _dbContext.tblProduct1.OrderBy(x => x.ProductId).ToPagedList(pageIndex, defaSize);
 
