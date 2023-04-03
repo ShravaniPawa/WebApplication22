@@ -10,6 +10,7 @@ namespace WebApplication22
         public ProductModel()
             : base("name=ProductEntities")
         {
+
         }
 
         public virtual DbSet<tblProduct1> tblProduct1 { get; set; }
